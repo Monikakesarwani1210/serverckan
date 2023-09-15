@@ -1,0 +1,13 @@
+entry_points='''
+    [ckan.plugins]
+    example_iauthfunctions=ckanext.iauthfunctions.plugin:ExampleIAuthFunctionsPlugin
+'''
+
+
+
+
+
+
+
+
+
