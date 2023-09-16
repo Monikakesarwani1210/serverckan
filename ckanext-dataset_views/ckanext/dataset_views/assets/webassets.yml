@@ -1,0 +1,14 @@
+# dataset_views-js:
+#   filter: rjsmin
+#   output: ckanext-dataset_views/%(version)s-dataset_views.js
+#   contents:
+#     - js/dataset_views.js
+#   extra:
+#     preload:
+#       - base/main
+
+# dataset_views-css:
+#   filter: cssrewrite
+#   output: ckanext-dataset_views/%(version)s-dataset_views.css
+#   contents:
+#     - css/dataset_views.css
